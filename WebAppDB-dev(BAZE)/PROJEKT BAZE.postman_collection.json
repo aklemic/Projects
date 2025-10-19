@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "70f7dad2-8c44-4884-8856-7de1754f6633",
+		"name": "PROJEKT BAZE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40176412",
+		"_collection_link": "https://vub999.postman.co/workspace/UPV~fd29f6aa-bcd5-4711-aeab-3347a5f3901f/collection/40176412-70f7dad2-8c44-4884-8856-7de1754f6633?action=share&source=collection_link&creator=40176412"
+	},
+	"item": [
+		{
+			"name": "p_login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "projekt",
+							"value": "p_mmanzin",
+							"type": "text"
+						},
+						{
+							"key": "procedura",
+							"value": "p_login",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "ggrubisic@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://dev.vub.zone/sandbox/router.php",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"vub",
+						"zone"
+					],
+					"path": [
+						"sandbox",
+						"router.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "p_get_products",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "projekt",
+							"value": "p_mmanzin",
+							"type": "text"
+						},
+						{
+							"key": "procedura",
+							"value": "p_get_products",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://dev.vub.zone/sandbox/router.php",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"vub",
+						"zone"
+					],
+					"path": [
+						"sandbox",
+						"router.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "p_create_order",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"projekt\": \"p_mmanzin\",\r\n  \"procedura\": \"p_create_order\",\r\n  \"customer_id\": 2,\r\n  \"items\": [\r\n    {\r\n      \"product_type\": \"Camera\",\r\n      \"product_id\": 1,\r\n      \"quantity\": 1,\r\n      \"unit_price\": 185\r\n    },\r\n    {\r\n      \"product_type\": \"Film\",\r\n      \"product_id\": 1,\r\n      \"quantity\": 2,\r\n      \"unit_price\": 15\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev.vub.zone/sandbox/router.php",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"vub",
+						"zone"
+					],
+					"path": [
+						"sandbox",
+						"router.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
