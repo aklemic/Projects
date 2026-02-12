@@ -1,0 +1,577 @@
+* {
+    text-decoration: none;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/*
+Header design
+*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    border-bottom: 3px solid white;
+}
+
+#logo-container {
+    flex-grow: 1;
+}
+
+#logo {
+    height: 150px;
+}
+
+#icons-container {
+    display: flex;
+    gap: 30px;
+}
+
+.header-link {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;  
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 2px solid white;
+    transition: all 0.3s ease;
+}
+
+.header-link:hover {
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.header-link i {
+    background-color: transparent;
+    margin-right: 3px;
+}
+
+/*
+END Header design
+*/
+
+/* ------------------------ */
+
+/*
+Navbar design
+*/
+
+.navbar {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-item {
+    margin: 0 20px;
+}
+
+.navbar-item a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    border: 2px solid white;
+    transition: all 0.3s ease;
+}
+
+.navbar-item a:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+/*
+END Navbar card design
+*/
+
+/* ------------------------ */
+
+/*
+Product card design
+*/
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    margin: 30px;
+    border: 3px solid white;
+    background-color: black;
+    display: inline-block;
+    text-align: center;
+}
+
+.card-img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 10px;
+    color: white;
+    border-top: 3px solid white;
+}
+
+.card-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn-view {
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 3px solid white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-view:hover {
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.lens-type {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffd700;
+    margin-bottom: 5px;
+}
+
+/*
+END Product card design
+*/
+
+/* ------------------------ */
+
+/*
+Footer design
+*/
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    text-align: center;
+    width: 50%;
+}
+
+.footer-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+.footer-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-list li {
+    margin-bottom: 5px;
+}
+
+.footer-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    display: inline-block;
+    border: 2px solid white;
+    transition: all 0.3s ease;
+}
+
+.footer-list a:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+/*
+END Footer design
+*/
+
+/* ------------------------ */
+
+/* 
+------------------------
+cameras,lens,equipment,film layout
+------------------------
+*/
+
+.products-page {
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    min-height: 80vh;
+}
+
+/* 
+Sidebar design
+*/
+
+.sidebar {
+    width: 250px;
+    background: black;
+    color: white;
+    border: 3px solid white;
+    padding: 30px 20px 0 20px;
+    box-sizing: border-box;
+}
+
+.filter-section {
+    margin-bottom: 40px;
+}
+
+.filter-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.filter-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.filter-list li {
+    margin-bottom: 8px;
+}
+
+.filter-list label {
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.filter-list input[type="checkbox"] {
+    cursor: pointer;
+    accent-color: white;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+/*
+END Sidebar design
+*/
+
+/* ------------------------ */
+
+/* 
+Main layout design
+*/
+
+.products-main {
+    flex: 1;
+    padding: 30px 40px 0 40px;
+    background: black;
+}
+
+.products-page .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+    background: black;
+    margin-top: 0;
+}
+
+.products-page .card {
+    width: 250px;
+    border: 3px solid white;
+    background-color: black;
+    text-align: center;
+    margin: 0;
+}
+
+.products-page .card-img {
+    width: 100%;
+    height: auto;
+}
+
+.products-page .card-body {
+    padding: 10px;
+    color: white;
+    border-top: 3px solid white;
+}
+
+.products-page .card-type {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.products-page .card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.products-page .card-price {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.products-page .add-to-cart {
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 3px solid white;
+    transition: all 0.3s ease;
+}
+
+.products-page .add-to-cart:hover {
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+}
+
+/* 
+END Main layout design
+*/
+
+/* ------------------------ */
+
+/* 
+Cart layout design
+*/
+
+.cart-container {
+    width: 100%;
+    margin: 20px auto;
+    background: black;
+    border: 3px solid white;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+.cart-title {
+    color: white;
+    font-size: 2em;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+    margin-bottom: 30px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid white;
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
+.cart-item-name {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.cart-item-qty {
+    font-size: 1.1em;
+    color: grey;
+}
+
+.cart-item-price {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.cart-remove {
+    margin-left: 20px;
+    font-size: 1.1em;
+    padding: 10px 20px;
+}
+
+.cart-total-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 30px;
+    gap: 14px;
+}
+
+.cart-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.cart-actions .btn-view {
+    font-size: 1.2em;
+    padding: 10px 20px;
+}
+
+/* 
+END Cart layout design
+*/
+
+/* ------------------------ */
+
+/* 
+RWD
+*/
+
+/*
+Laptop
+*/
+@media (max-width: 1440px) {
+    .cards-container {
+        gap: 30px;
+    }
+
+    .card {
+        flex: 0 0 calc(50% - 30px);
+        margin: 0;
+        box-sizing: border-box;
+    }
+}
+
+/*
+Tablet
+*/
+@media (max-width: 1024px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .cameras-page .header,
+    .lens-page .header,
+    .equipment-page .header,
+    .film-page .header {
+        border: 0px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .cards-container {
+        padding: 20px 0 20px 0;
+    }
+
+    .products-page {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .products-main {
+        padding: 10px;
+    }
+
+    .products-page .card {
+        width: 250px;
+        margin: 15px;
+    }
+
+    .cameras-page .products-page .cards-container,
+    .lens-page .products-page .cards-container,
+    .equipment-page .products-page .cards-container,
+    .film-page .products-page .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cameras-page .products-page .card,
+    .lens-page .products-page .card,
+    .equipment-page .products-page .card,
+    .film-page .products-page .card {
+        width: 80%;
+        font-size: 1.2em;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+}
+
+/* 
+Phone
+*/
+@media (max-width: 600px) {
+    .index-page .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .index-page .card {
+        width: 90%;
+    }
+
+    .cart-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 15px 10px;
+    }
+
+    .cart-remove {
+        margin: 10px 0 0 0;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+}
