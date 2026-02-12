@@ -1,0 +1,8 @@
+ID;Tip;Naziv;Cijena;Kolicina;Proizvodjac;Detalji
+1;Laptop;Dell XPS 15;1500.0;5;Dell;RAM=16GB, SSD=512GB, CPU=Intel i7
+2;Laptop;HP Pavilion;900.0;3;HP;RAM=8GB, SSD=256GB, CPU=Intel i5
+3;Monitor;Dell UltraSharp 24;300.0;10;Dell;Dijagonala=24.0", Rezolucija=1920x1080
+4;Monitor;Lenovo ThinkVision 27;400.0;4;Lenovo;Dijagonala=27.0", Rezolucija=2560x1440
+5;Tipkovnica;HP žična tipkovnica;25.0;20;HP;Mehanicka=false, Layout=HR
+6;Tipkovnica;Lenovo mehanička;80.0;7;Lenovo;Mehanicka=true, Layout=US
+7;Laptop;Notebook 255 G10;350.0;1;HP;RAM=16GB, SSD=34GB, CPU=AMD Ryzen 3 7330U
