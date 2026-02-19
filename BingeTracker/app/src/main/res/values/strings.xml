@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BingeTracker</string>
+
+    <string name="home_title">BingeTracker</string>
+    <string name="home_subtitle">Praćenje filmova i serija</string>
+    <string name="home_open_list">Otvori listu</string>
+    <string name="home_open_settings">Postavke</string>
+
+    <string name="list_add_title">Dodaj naslov</string>
+    <string name="settings_title">Postavke</string>
+    <string name="settings_description">BingeTracker je aplikacija za praćenje filmova i serija koje gledaš ili planiraš gledati.</string>
+    <string name="settings_default_filter">Zadani filter liste:</string>
+    <string name="settings_filter_all">Svi naslovi</string>
+    <string name="settings_filter_watching">Trenutno gledam</string>
+    <string name="settings_filter_planned">Planiram gledati</string>
+
+    <string name="edit_title_name_hint">Naziv</string>
+    <string name="edit_title_rating_hint">Ocjena (1-10)</string>
+    <string name="edit_title_save">Spremi</string>
+</resources>

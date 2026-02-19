@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textSettingsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Postavke"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textSettingsDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="BingeTracker je aplikacija za praćenje filmova i serija koje gledaš ili planiraš gledati." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Odabrani filter primjenjuje se na listu naslova na početnom ekranu." />
+
+        <TextView
+            android:id="@+id/textDefaultFilterLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Zadani filter liste:" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/radioFilterAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Svi naslovi" />
+
+            <RadioButton
+                android:id="@+id/radioFilterWatching"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trenutno gledam" />
+
+            <RadioButton
+                android:id="@+id/radioFilterPlanned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Planiram gledati" />
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>
