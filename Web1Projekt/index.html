@@ -1,0 +1,118 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Retrokamera</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/0abbd622bb.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.0/dist/sweetalert2.all.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.0/dist/sweetalert2.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="index-page">
+    <div class="header">
+        <div id="logo-container">
+            <a href="index.html"><img src="img/logo.png" id="logo" alt="RetroKamera Logo"></a>
+        </div>
+        <div id="icons-container">
+            <a href="./login.html" class="header-link"><i class="fa-solid fa-user"></i> PRIJAVA</a>
+            <a href="./cart.html" class="header-link">
+                <i class="fa-solid fa-cart-shopping"></i> KOŠARICA
+                <span id="cart-count" class="cart-count-badge">0</span>
+            </a>
+
+        </div>
+    </div>
+    
+    <div class="navbar">
+        <ul class="navbar-list">
+            <li class="navbar-item"><a href="./cameras.html">Fotoaparati</a></li>
+            <li class="navbar-item"><a href="./lens.html">Objektivi</a></li>
+            <li class="navbar-item"><a href="./equipment.html">Oprema</a></li>
+            <li class="navbar-item"><a href="./film.html">Filmovi</a></li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <div class="cards-container">
+            <div class="card">
+                <img src="./img/cameras.png" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Fotoaparati</h2>
+                    <a href="cameras.html" class="btn-buy">KUPI</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/lenses.png" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Objektivi</h2>
+                    <a href="lens.html" class="btn-buy">KUPI</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/lenses.png" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Oprema</h2>
+                    <a href="equipment.html" class="btn-buy">KUPI</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/film.png" class="card-img">
+                <div class="card-body">
+                    <h2 class="card-title">Film</h2>
+                    <a href="film.html" class="btn-buy">KUPI</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="graph">
+            <div class="best-selling">
+                <canvas id="bestsellerChart" width="100" height="300"></canvas>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="footer-section">
+            <h3 class="footer-title">O RETROKAMERA</h3>
+            <ul class="footer-list">
+                <li><a href="#">O nama</a></li>
+                <li><a href="#">Kontaktirajte nas</a></li>
+                <li><a href="#">Opći uvjeti poslovanja</a></li>
+                <li><a href="#">Zaštita privatnosti</a></li>
+            </ul>
+        </div>
+    
+        <div class="footer-section">
+            <h3 class="footer-title">KORISNIČKI RAČUN</h3>
+            <ul class="footer-list">
+                <li><a href="#">Moj račun</a></li>
+                <li><a href="#">Narudžbe i povrati</a></li>
+            </ul>
+        </div>
+    
+        <div class="footer-section">
+            <h3 class="footer-title">ZAPRATITE NAS</h3>
+            <ul class="footer-list">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">TikTok</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Discord</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

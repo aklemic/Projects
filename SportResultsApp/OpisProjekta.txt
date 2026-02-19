@@ -1,0 +1,13 @@
+Opis projekta SportResultsApp:
+
+Ovaj projekt služi za unos, pohranu i analizu rezultata nogometnih utakmica putem GUI aplikacije u C# WinForms s integriranom SQLite bazom podataka koristi Entity Framework Core.
+
+Glavne funkcionalnosti:  
+- Unos, uređivanje, brisanje i pretraživanje utakmica  
+- Statistika pobjeda i izvještaji  
+- Izvoz podataka u CSV format  
+- Višedretveno izvršavanje unosa podataka s eventima
+
+Prema kriterijima iz dokumentacije, procjenjujem da sam imam oko 50 od 60 mogućih bodova.
+
+

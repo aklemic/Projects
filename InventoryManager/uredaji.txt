@@ -1,0 +1,7 @@
+1;LAPTOP;Dell XPS 15;1500.0;5;1;16;512;Intel i7
+2;LAPTOP;HP Pavilion;900.0;3;2;8;256;Intel i5
+3;MONITOR;Dell UltraSharp 24;300.0;10;1;24.0;1920x1080;
+4;MONITOR;Lenovo ThinkVision 27;400.0;4;3;27.0;2560x1440;
+5;TIPKOVNICA;HP žična tipkovnica;25.0;20;2;false;HR;
+6;TIPKOVNICA;Lenovo mehanička;80.0;7;3;true;US;
+7;LAPTOP;Notebook 255 G10;350.0;1;2;16;34;AMD Ryzen 3 7330U

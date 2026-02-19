@@ -1,0 +1,7 @@
+Marseille;PSG;2025-09-01;4;4
+Barcelona;Real Madrid ;2025-09-10;3;2
+Dinamo;Hajduk;2025-09-20;1;1
+Liverpool;Manchester United;2025-09-25;7;0
+Bayern;Borussia Dortmund;2025-10-01;3;1
+Sevilla;Bilbao;2025-09-12;1;0
+Hajduk;Rijeka;2025-09-05;1;2
